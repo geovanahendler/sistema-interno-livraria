@@ -1,0 +1,28 @@
+{
+  "name": "sistema-interno-livraria",
+  "version": "1.0.0",
+  "description": "criação API com node.js e express de um sistema interno de um livraria",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geovanahendler/sistema-interno-livraria.git"
+  },
+  "keywords": [],
+  "author": "Geovana Hendlet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geovanahendler/sistema-interno-livraria/issues"
+  },
+  "homepage": "https://github.com/geovanahendler/sistema-interno-livraria#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongodb": "^6.14.0",
+    "mongoose": "^7.3.4",
+    "nodemon": "^3.0.1"
+  }
+}
